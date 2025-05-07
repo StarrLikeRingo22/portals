@@ -1,0 +1,87 @@
+.alwaysVisible {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  z-index: 10000;
+  background: transparent;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.attributions {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  flex: 1 1;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+
+}
+
+.navBack {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 13px;
+  pointer-events: all;
+}
+
+.navName {
+  position: relative;
+  left: 1370px;
+  bottom: 4px;
+  font-size: 13px;
+}
+
+.navLine {
+  position: fixed;
+  top: 50px; 
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  z-index: 9999;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: #f0f0f0;
+  z-index: 1000;
+  text-align: right;
+}
+
+.footerLine {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 39px;
+  left: 0;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-size: 14px;
+}
+
+.footerDate {
+  text-align: right;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}

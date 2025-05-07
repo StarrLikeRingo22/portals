@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      { "source": "/Three", "destination": "/Three.html" },
+      { "source": "/Classic", "destination": "/Classic.html" },
+      { "source": "/Classic/Resume", "destination": "/Classic/resume.html" },
+      { "source": "/Attributions", "destination": "/attributions.html" }
+    ]
+  }
